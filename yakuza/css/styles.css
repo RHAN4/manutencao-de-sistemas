@@ -1,0 +1,22 @@
+@font-face {
+    font-family: yakuzaFont;
+    src: url(/images/edosz.ttf);
+}
+
+body {
+    background: url(/images/yakuza0dc-hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+h1 {
+    font-size: 100px;
+    color: white;
+    display: flex;
+    text-align: left;
+    margin-top: 500px;
+    font-family: yakuzaFont;
+    font-weight: none;
+    font-size: 100px;
+}
