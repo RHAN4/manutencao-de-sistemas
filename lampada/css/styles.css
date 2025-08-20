@@ -1,0 +1,31 @@
+body {
+    background: black;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.central {
+    width: 400px;
+    background: rgba(255, 255, 255, 0.089);
+    padding: 20px;
+    border-radius: 50px;
+}
+
+.central div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.central button {
+    width: 100px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.central div button:hover {
+    background-color: yellow
+}
