@@ -1,0 +1,61 @@
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+video {
+    min-width: 100%;
+    z-index: -1;
+    position: fixed;
+    object-fit: cover;
+    max-height: 100%;
+}
+
+.central h1 {
+    font-size: 40px;
+    font-weight: lighter;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+
+.central {
+    background: rgba(255, 255, 255, 0.11);
+    width: fit-content;
+    padding: 40px;
+    border-radius: 5px;
+    backdrop-filter: blur(3px);
+    box-shadow: 1px 1px 5px rgb(0, 63, 60); 
+}
+
+.central input {
+    padding: 5px;
+    border-radius: 5px;
+    outline: 1px solid transparent;
+    width: 100%;
+}
+
+.central input:focus {
+    border: 1px solid black;
+}
+
+.central div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.central button {
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.central button:hover {
+    background: rgb(255, 153, 0);
+}
